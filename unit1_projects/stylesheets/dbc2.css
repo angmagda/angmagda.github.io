@@ -4,7 +4,7 @@
   background-color: #FFFFFF;
 	padding: 5px;
 	border: 4px solid #666666;
-  border-radius: 20;
+  border-radius: 20%;
   margin-bottom: 3px;
 }
 
@@ -14,20 +14,20 @@
   background-color: #FFF;
   padding: 5px;
   border: 4px solid #666;
-  border-radius: 20;
+  border-radius: 20%;
   clear: both;
 }
 
 .content{
 	width: 650px;
 	height: 600px;
-  margin:auto;
   background-color: yellow;
   padding: 5px 3px;
   border: 4px solid #000000;
-  border-radius: 20;
+  border-radius: 20%;
   float: right;
   margin-bottom: 3px;
+  margin:auto;
 }
 
 .sidebar{
@@ -37,7 +37,7 @@
   color: #FFF;
   padding: 5px 3px;
   border: 4px solid;
-  border-radius: 20;
+  border-radius: 20%;
   float: left;
   margin-bottom: 3px;
 }
@@ -64,11 +64,11 @@
 
 .caption {
   position: absolute;
-  top: -80;
-  left: 100;
+  top: 200px;
+  left: 100px;
   background-color: #666;
   color: #FFF;
-  font-size: 12px;
+  font-size: 16px;
   font: Verdana;
   z-index: 1;
 }
@@ -93,11 +93,11 @@ a:active{
 li:first-child{
   color: #FFBF00;
   font-size: 14px;
-  font: courier;
+  font-family: courier;
 }
 
 li:last-child{
   color: #00FF00;
   font-size: 14px;
-  font: courier;
+  font-family: courier;
 }
