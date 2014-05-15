@@ -1,0 +1,30 @@
+body {
+	background-color: F1EBEB;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	color:FFCC10;
+	font-family: "Arial";
+}
+
+p {
+	color: BF28BD;
+	font: Verdana;
+	font-size: 12px;
+}
+#main_img {
+	width: 400px;
+	height: 400px;
+}
+
+.other_img {
+	width: 250px;
+	height: 200px;
+}
+
+li {
+	color: 14B39C;
+	font-size: 12px;
+	font: "Arial";
+}
