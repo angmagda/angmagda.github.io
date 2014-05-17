@@ -1,12 +1,9 @@
 body {
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	color: #333;
 	background-image: url("../images/knit.png");
-	margin-left: 20px;
-	margin-top: 20px;
-	margin-right: 20px;
-	margin-bottom: 20px;
+	margin: 20px;
 }
 
 #wrapper{
@@ -15,15 +12,17 @@ body {
 	border-radius: 10px;
 	margin: auto;
 	background-color: #FFF8E7;
+
 }
 
 #header{
-	border-bottom: 3px dotted #FFCC10;
+	border-bottom: 3px dotted #666;
 	text-align: center;
 }
 
 .content{
 	text-align: justify;
+	padding: 10px;
 }
 
 img {
