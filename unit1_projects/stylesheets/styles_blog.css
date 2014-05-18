@@ -11,7 +11,7 @@ body {
 	border: 4px solid #666;
 	border-radius: 10px;
 	margin: auto;
-	background-color: #FFF8E7;
+	background-color: #DA81F5;
 
 }
 
@@ -31,7 +31,7 @@ img {
 }
 
 a:link {
-	color: #999;
+	color: #FF0080;
 	text-decoration: underline;
 }
 a:visited {
@@ -45,3 +45,6 @@ a:hover {
 a:active {
 	text-decoration: underline;
 	color: #FC0;
+h1 {
+	color: #8A084B;
+}
