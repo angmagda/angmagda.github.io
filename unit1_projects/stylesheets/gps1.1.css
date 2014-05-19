@@ -3,6 +3,7 @@
      font-family: "Verdana";
      text-align: center;
     }
+
     #wrapper {
         width:75%;
         margin-left:20%;
@@ -21,9 +22,10 @@
         font-size: 12px;
         font-family: "Verdana";
         width: 30%;
+        position: absolute;
     }
     
     #text {
       text-align: center;
-      margin-top: 15%;
+      margin-top: 5%;
     }
