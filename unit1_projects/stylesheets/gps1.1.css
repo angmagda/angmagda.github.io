@@ -22,10 +22,10 @@
         font-size: 12px;
         font-family: "Verdana";
         width: 30%;
-        position: absolute;
     }
     
     #text {
       text-align: center;
       margin-top: 5%;
+      clear: both;
     }
