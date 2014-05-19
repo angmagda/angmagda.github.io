@@ -1,0 +1,29 @@
+
+    h1{
+     font-family: "Verdana";
+     text-align: center;
+    }
+    #wrapper {
+        width:75%;
+        margin-left:20%;
+        margin: auto;
+    }
+    
+    img {
+        width:50%;
+        float: left;
+    }
+    
+    #intro {
+        text-align:left;
+        float: right;
+        margin-right:15%;
+        font-size: 12px;
+        font-family: "Verdana";
+        width: 30%;
+    }
+    
+    #text {
+      text-align: center;
+      margin-top: 15%;
+    }
