@@ -73,6 +73,7 @@ h4 {
   right: 15px;
 }
 
+
 /* Header */
 #header {
   background-color: #009D92;
@@ -117,6 +118,7 @@ h4 {
   display: table;
   clear: both;
 }
+
 
 /* Famous Women */
 #famous div.woman {
@@ -167,7 +169,6 @@ h4 {
 }
 
 /* Fun Facts */
-
 #facts ul {
   margin: 50px;
 }
@@ -197,5 +198,3 @@ h4 {
   display: table;
   clear: both;
 }
-
-
