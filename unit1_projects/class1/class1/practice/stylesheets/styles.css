@@ -7,21 +7,27 @@ body {
   margin: 0px auto;
   min-width: 960px;
   width: 100%;
-}
+  font-family: 'Entypo-webfont', Arial, Verdana;
+  }
 
 p {
   margin: 1em;
-}
+  }
 
 a {
   color: #1D766F;
   text-decoration: none;
 }
 
+a:hover{
+  color: #FFCC10;
+}
+
 h1 {
   font-size: 2.2em;
   float: left;
   line-height: 75px;
+  font-family: 'EntypoRegular';
 }
 
 h2 {
@@ -45,6 +51,15 @@ h4 {
   color: rgb(120, 120, 120);
   font-size: 1em;
   text-align: center;
+}
+
+@font-face {
+  font-family: 'EntypoRegular';
+  src: url('font/Entypo-webfont.eot');
+  src: url('font/Entypo-webfont.eot?#iefix') format('embedded-opentype'),
+       url('font/Entypo-webfont.woff') format('woff'),
+       url('font/Entypo-webfont.ttf') format('truetype'),
+       url('font/Entypo-webfont.svg#EntypoRegular') format('svg');
 }
 
 /* Navigation */
