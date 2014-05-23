@@ -1,11 +1,11 @@
 /* General Styles */
 body {
   background-color: rgb(241, 241, 241);
-  font-size: 16px;
+  font-size: 1.0em;
   font-weight: 300;
   line-height: 1.2em;
   margin: 0px auto;
-  min-width: 960px;
+  min-width: 31.25%; /*adjustment to 300px*/
   width: 100%;
   font-family: 'Entypo-webfont', Arial, Verdana;
   }
@@ -68,7 +68,7 @@ h4 {
 }
 .nav li a {
   color: #fff;
-  margin: 0 10px;
+  margin: 0 1%;/*10px*/
   padding: 5px 10px;
   text-decoration: none;
 }
@@ -122,8 +122,8 @@ h4 {
   position: relative;
 }
 #main div.wrapper{
-    width: 100%;
-    max-width:1400px;
+    width: 90%;
+    max-width:1000px;
     margin: 0 auto;
 }
 
@@ -204,7 +204,7 @@ h4 {
 #footer .nav {
   float: left;
   font-size: 1.1em;
-  margin: 10px;
+  margin: 1%;/*10px*/
 }
 
 #footer:after {
