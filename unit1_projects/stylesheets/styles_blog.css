@@ -36,7 +36,7 @@ a:link {
 }
 a:visited {
 	text-decoration: underline;
-	color: #F93;
+	color: magenta;
 }
 a:hover {
 	text-decoration: none;
