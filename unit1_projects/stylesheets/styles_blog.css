@@ -15,7 +15,7 @@ body {
 
 }
 
-#header{
+header {
 	border-bottom: 3px dotted #666;
 	text-align: center;
 }
@@ -31,7 +31,7 @@ img {
 }
 
 a:link {
-	color: #FF0080;
+	color: #8A084B;
 	text-decoration: underline;
 }
 a:visited {
@@ -40,11 +40,52 @@ a:visited {
 }
 a:hover {
 	text-decoration: none;
-	color: #F30;
+	color: #FFF;
 }
 a:active {
 	text-decoration: underline;
-	color: #FC0;
+	color: #333;
+
+}
+
 h1 {
 	color: #8A084B;
+}
+
+h4 {
+	position: relative;
+	bottom: 15px;
+}
+
+#fixpos {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: #8A084B;
+	color: #FFF;
+	padding: 2%;
+}
+
+.left {
+	float: left;
+	margin-right: 75px;
+	margin-bottom: 20px;
+}
+
+.right: {
+	float: right;
+}
+
+section {
+	clear: both;
+}
+
+.small-img{
+	width: 150px;
+	height: auto;
+}
+
+.normal-img {
+	width: 400px;
+	height: auto;
 }
