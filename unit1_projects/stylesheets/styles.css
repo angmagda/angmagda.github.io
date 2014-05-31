@@ -13,15 +13,16 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	padding: 2%;
-	background-color: #FA6900;
+	background-color: #E0E4CC;
 }
 
 #wrapper a {
-	color: #E0E4CC;
+	color: #FA6900;
 }
 
 #wrapper a:hover{
 	color: #69D2E7;
+	background-color: #E0E4CC;
 }
 
 
@@ -38,7 +39,7 @@ header, footer{
 }
 
 header{
-	background-color: #E0E4CC;
+	background-color: #FA6900;
 }
 
 #name {
@@ -70,8 +71,7 @@ nav {
 	width: 30%;
 	float: left;
 	margin: 1%;
-	border: 3px solid #E0E4CC;
-	background-color: #F38630;
+	background-color: #A7DBD8;
 }
 
 nav  ul {
@@ -91,8 +91,7 @@ nav ul li {
 	width: 60%;
 	float: right;
 	margin: 1%;
-	border: 3px solid #E0E4CC;
-	background-color: #F38630;
+	background-color: #A7DBD8;
 }
 
 #sidebar img{
@@ -105,14 +104,14 @@ nav ul li {
 
 #sidebar h2{
 	font-size: 1.25em;
-	color: #69D2E7;	
+	color: #FA6900;	
 	font-weight: 700;
 }
 
 #sidebar p{
-	color: #69D2E7;
+	color: #FA6900;
 	text-align: justify;
-	padding-right: 1%;
+	padding-right: 2%;
 
 }
 
@@ -146,8 +145,8 @@ FOOTER
 
 footer {
 	font-size: 1em;
-	background-color: #69D2E7;
-	color: #F38630;
+	background-color: #F38630;
+	color: #E0E4CC;
 	text-align: right;
 	padding-top: 20px;
 }	
