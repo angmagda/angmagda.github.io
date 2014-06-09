@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Week 2 Technical Blog</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/styles_blog.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Relative, absolute, and fixed positioning</h1>
+		</header>
+		<div class="content">
+			<h2>Understanding CSS positioning</h2>
+			<h3>Magda Ang</h3>
+			<h4>May 24th, 2014</h4>
+			<p>Positioning seems like an easy concept to understand; however, is a little more complicated than it first appears.
+			First thing to understand: every single element on a web page is a block. Once we get that, we can talk about how we can use positioning to get the blocks of pixels exactly where we want them to go and have fun, creative designs.</p>
+			<p>The CSS position property takes 4 values:</p>
+			<ol>
+				<li>
+					<a href="#static">Static</a>
+				</li>
+				<li>
+					<a href="#relative">Relative</a>
+				</li>
+				<li>
+					<a href="#absolute">Absolute</a>
+				</li>
+				<li>
+					<a href="#fixed">Fixed</a>
+				</li>
+			</ol>
+
+		<section id="static">
+			<h3>Static</h3>
+				<p>Is the default position for any element on a web page. If we apply positioning rules like <em>top</em> or <em>left</em> to an element that has a static position, nothing will happen, those rules are ignored.</p>
+				<img class="left small-img" src="images/static_css.png">
+				<img class="right normal-img" src="images/static.png">
+		</section>
+		<section id="relative">
+			<h3>Relative</h3>
+				<p>Is similar to static except you're saying "I'd like that where it normally would be except a little to the left". It's a way to take an element without removing it from the natural flow of the page and just push o pull it to any of the four positioning properties, which are: <em>top</em>, <em>right</em>, <em>bottom</em>, and <em>left</em>. And talking about this, <strong>here comes my "aha moment": to use these properties, you need to think of them as offset properties, meaning that an element positioned right: 20px, is not moved right 20px. It's right side is offset from the right side of the window 20px, in other words, it moves to the left!! And this applies to the other three too.</strong></p>
+				<img class="left small-img" src="images/relative_css.png">
+				<img class="right normal-img" src="images/relative.png">
+		</section>
+
+		<section id="absolute">
+			<h3>Absolute</h3>
+				<p>This tells the browser that whatever element to be positioned should be removed from the normal flow of the document and will be placed in an exact location on the page. You're basically saying "I want this element here and I don't care what is around it". It is also taken out of the normal flow, it won't affect how the elements before or after it in the HTML are positioned on the web page.</p>
+				<p>Absolutely positioned elements are positioned relative to the first parent element that has a position other than static applied to it. If there is no parent element up that meets this condition, the absolutely positioned element is positioned relative to the document window.</p>
+				<img class="left small-img" src="images/absolute_css.png">
+				<img class="right normal-img" src="images/absolute.png">
+				<p>So, if we set the  div id="wrapper" as the parent element to position:relative...</p>
+				<img class="left small-img" src="images/absolute1_css.png">
+				<img class="right normal-img" src="images/absolute1.png">
+		</section>
+		<section id="fixed">
+			<h3>Fixed</h3>
+				<p>Fixed elements are always positioned relative to the browser window. No matter how far down the page you scroll, you will always see it.</p>
+		</section>
+		<section>
+			<h3>Sources</h3>
+			<ul>
+				<li><a href="http://www.cssreset.com/understanding-css-relative-and-absolute-positioning-explained/">http://www.cssreset.com/understanding-css-relative-and-absolute-positioning-explained/</a></li>
+				<li><a href="http://www.codecademy.com/forum_questions/513b0a64ee849413590009f9">http://www.codecademy.com/forum_questions/513b0a64ee849413590009f9</a></li>
+				<li><a href="http://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/">http://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/</a></li>
+				<li><a href="http://webdesign.about.com/od/advancedcss/a/aa061307.htm">http://webdesign.about.com/od/advancedcss/a/aa061307.htm</a></li>
+				<li><a href="http://www.barelyfitz.com/screencast/html-training/css/positioning/">http://www.barelyfitz.com/screencast/html-training/css/positioning/</a></li>
+			</ul>
+		</section>
+
+		</div>
+		<div id="fixpos">Fixed position example</div>
+	</div>
+</body>
+</html>
