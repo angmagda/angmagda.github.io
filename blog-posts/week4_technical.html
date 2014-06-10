@@ -2,41 +2,52 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Template Blog</title>
-	<link rel="stylesheet" type="text/css" href="stylesheets/styles_blog.css">
+	<title>Week 4 Technical Blog</title>
+	<link rel="stylesheet" type="text/css" href="../unit1_projects/stylesheets/styles_blog.css">
 </head>
 <body>
 	<div id="wrapper">
 		<header>
-			<h1>Title</h1>
+			<h1>Ruby Loops</h1>
 		</header>
 		<div class="content">
-			<h2>Subtitle</h2>
+			<h2>What is the right loop/iterator to use?</h2>
 			<h3>Magda Ang</h3>
-			<h4>Date</h4>
+			<h4>June 9th, 2014</h4>
 		<section>
-			<h3>Something</h3>
-			<p>
+			<h3>Ways to loop in Ruby</h3>
+			<p>Ruby has a lot of different ways to execute the same block of code a specified number of times. We have read about loop, while, until, for, each, and times, we have used them in some exercises and challenges so far, but I still end up using the same one over and over again. Let's review the different ways to loop over stuff in Ruby. As an example, we want to print numbers from 1 to 10.
 			<ol>
-				<li></li>
-				<li></li>
-				<li></li>
+				<li><strong>Loop method</strong></li>
+				<p>Is the simplest way to loop in Ruby. Ruby provides us with all the loop termination and control keywords that allow us to make the loop method more useful, these keywords are <em>break</em>, <em>next</em>, and <em>redo</em>.<em> Break</em> allows us to exit a loop at any point.</p>
+					<img src="../unit1_projects/images/loop.png">
+				<li><strong>While Loop</strong></li>
+				<p>Executes code while conditional is true.</p>
+					<img src="../unit1_projects/images/while.png">
+				<li><strong>Until Loop</strong></li>
+				<p>The until loop is similar to the while loop but the logic is reversed, it executes code while conditional is false.</p>
+					<img src="../unit1_projects/images/until.png">
+				<li><strong>For Loop</strong>Loop method</li>
+				<p>Using a for loop, we can execute code once for each element in an expression</p>
+					<img src="../unit1_projects/images/for.png">
+				<li><strong>Each Iterator</strong></li>
+				<p>Is the simplest iterator method and is perhaps the most useful, too. It will take a list of variables and run a block of statements for each of them.</p>
+					<img src="../unit1_projects/images/each.png">
+				<li><strong>Times Iterator</strong></li>
+				<p>It will allow you to execute a loop and perform an action (according to the block you write) x number of times. Is a very useful method when you know how many times you need to run a block of code. In this example, is not going to print 1-10, but 0-9. Since we are interested in how many times it iterates, this is ok. </p>
+					<img src="../unit1_projects/images/times.png">
 			</ol>
 			</p>
 		</section>
 		<section>
-			<h3>Something</h3>
+			<p>As you can see, Ruby has a lot of ways to do something. Which one is the best? How to choose between one or the other? It depends on what you want to accomplish with your code, but remember that Ruby is more interested in accomodating the language to suit the programmer, not the other way around, so it's up to you really. I love short and clear code, so I would go for the loop that gives me that.</p>
 					
 		</section>
-		<section>
-			<h3>Something</h3>
-		</section>
-		<section>
+				<section>
 				<p>Sources</p>
-				<p><a href=""></a></br>
-				<a href="">/</a></br>
-				<a href=""></a></br>
-				<a href=""></a></br></p>
+				<p><a href="http://www.skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/">http://www.skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/</a></br>
+				<a href="http://www.tutorialspoint.com/ruby/ruby_loops.htm">http://www.tutorialspoint.com/ruby/ruby_loops.htm</a></br>
+				<a href="http://www.codecademy.com/courses/ruby-beginner-en-XYcN1/2/4">http://www.codecademy.com/courses/ruby-beginner-en-XYcN1/2/4</a></br>
 		</section>	
 			
 		</div>

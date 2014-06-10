@@ -29,6 +29,10 @@ img {
 	height: 200px;
 	width: auto;
 }
+ol img {
+	height: 100px;
+	width: auto;
+}
 
 a:link {
 	color: #8A084B;
